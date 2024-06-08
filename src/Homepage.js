@@ -10,6 +10,7 @@ function Homepage () {
             setArticles(arts);
         }).catch((err) => console.error(err));
     }, []);
+console.log("helloooww");
 
     return (
         <div>
@@ -22,6 +23,7 @@ function Homepage () {
         </div>
     )
 }
+
 
 
 export default Homepage;
